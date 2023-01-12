@@ -167,12 +167,12 @@ button {
 .header-close {
   float: right;
   visibility: hidden;
-  padding: 5px 5px 5px 5px;
+  padding-lef: 5px;
 
 }
 
 .header-close i {
-  margin: 0 20px 0 0;
+  margin-right: 20px;
 }
 
 .header-right {
@@ -385,14 +385,14 @@ button {
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .column-card {
-      /* width: 100%; */
+      width: 100%;
       display: block;
       
       transition: 1s;
   }
-  /* .card{
+  .card{
     width: 100%;
-  } */
+  }
 }
 
 /* Style the counter cards */
@@ -528,19 +528,6 @@ button {
   }
   .card-image-container img{
     padding-top: 15px;
-  }
-  .title-recent{
-    display: block;
-    float: left;
-  }
-  .recent-title p{
-    text-align: center;
-  }
-  .btn-slide{
-    text-align: center;
-  }
-  .card-recent{
-    width: 100%;
   }
 }
 
@@ -1075,8 +1062,8 @@ button {
 .footer .col ul li:hover {
   color: #ffffff;
   transition: .1s;
-  /* -webkit-transition: .1s;
-  -moz-transition: .1s; */
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
 }
 .signup-form{
 
@@ -1308,9 +1295,9 @@ button {
 .card-cus{
   padding: 15px;
 }
-/* .card-cus:hover {
+.card-cus:hover {
   transform: translate(7px);
-} */
+}
 
 .card-image-container-cus {
   width: 100%;

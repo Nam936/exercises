@@ -151,7 +151,6 @@ button {
 }
 
 .header-midd a {
-  color: #7B88A8;
   text-decoration: none;
   margin-right: 30px;
   transition: all 1s;
@@ -167,12 +166,10 @@ button {
 .header-close {
   float: right;
   visibility: hidden;
-  padding: 5px 5px 5px 5px;
-
 }
 
 .header-close i {
-  margin: 0 20px 0 0;
+  color: #3CD3AD;
 }
 
 .header-right {
@@ -212,7 +209,7 @@ button {
   .header-midd {
     display: none;
     width: 100%;
-    transition: 2s;
+    tran
   }
   .menu-header a {
     float: left;
@@ -222,6 +219,7 @@ button {
   .header-close {
     margin-left: auto;
     visibility: visible;
+    
   }
   .logo-header{
     flex-shrink: 0;
@@ -385,14 +383,14 @@ button {
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .column-card {
-      /* width: 100%; */
+      width: 100%;
       display: block;
       
       transition: 1s;
   }
-  /* .card{
+  .card{
     width: 100%;
-  } */
+  }
 }
 
 /* Style the counter cards */
@@ -528,19 +526,6 @@ button {
   }
   .card-image-container img{
     padding-top: 15px;
-  }
-  .title-recent{
-    display: block;
-    float: left;
-  }
-  .recent-title p{
-    text-align: center;
-  }
-  .btn-slide{
-    text-align: center;
-  }
-  .card-recent{
-    width: 100%;
   }
 }
 
@@ -1075,8 +1060,8 @@ button {
 .footer .col ul li:hover {
   color: #ffffff;
   transition: .1s;
-  /* -webkit-transition: .1s;
-  -moz-transition: .1s; */
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
 }
 .signup-form{
 
@@ -1308,9 +1293,9 @@ button {
 .card-cus{
   padding: 15px;
 }
-/* .card-cus:hover {
+.card-cus:hover {
   transform: translate(7px);
-} */
+}
 
 .card-image-container-cus {
   width: 100%;

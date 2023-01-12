@@ -158,7 +158,7 @@ h2 {
 /*slide*/
 .slide {
     display: grid;
-    grid-template-columns: 375px 375px 375px;
+    grid-template-columns: 375px 375px 375px 375px;
     justify-content: center;
     gap: 30px;
 }

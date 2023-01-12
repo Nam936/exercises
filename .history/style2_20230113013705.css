@@ -531,16 +531,7 @@ button {
   }
   .title-recent{
     display: block;
-    float: left;
-  }
-  .recent-title p{
-    text-align: center;
-  }
-  .btn-slide{
-    text-align: center;
-  }
-  .card-recent{
-    width: 100%;
+    float: l;
   }
 }
 
@@ -1075,8 +1066,8 @@ button {
 .footer .col ul li:hover {
   color: #ffffff;
   transition: .1s;
-  /* -webkit-transition: .1s;
-  -moz-transition: .1s; */
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
 }
 .signup-form{
 
@@ -1308,9 +1299,9 @@ button {
 .card-cus{
   padding: 15px;
 }
-/* .card-cus:hover {
+.card-cus:hover {
   transform: translate(7px);
-} */
+}
 
 .card-image-container-cus {
   width: 100%;
