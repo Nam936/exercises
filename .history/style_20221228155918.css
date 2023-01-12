@@ -1,0 +1,17 @@
+
+#wrap{width: 100%;
+    align-content: center;
+}
+.bg_header{
+ 
+    width: 500px;
+}
+header{display: flex;}
+.logo{display: flex;}
+.logo img{width: 24px; height: 24px;}
+.txt_header{padding-left: 20px;}
+.lst_header ul{display: flex; list-style-type: none;}
+.icon_header{display: flex; align-items: center;}
+
+/* .main{background-color: chartreuse;}
+.footer{background-color: springgreen;}*/
