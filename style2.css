@@ -847,39 +847,3 @@ flex-shrink: 0;
 max-width: 100%;
 border-radius: 10px;
 }
-
-/* @media only screen and (max-width: 800px) {
-.card-main {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cards-cus {
-  display: block;
-  width: 100%;
-}
-
-.card-image-container-cus {
-  width: 100%;
-  height: auto;
-}
-
-.day-cus {
-  flex: 50%;
-}
-
-
-.blog-thumbnail {
-  display: block;
-  width: 100%;
-}
-
-.title-main p {
-  font-size: 5vw;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  overflow: hidden;
-}
-
-} */
