@@ -4,9 +4,10 @@
   margin: 0;
 }
 
-body {
+body,h1,h2,h3,h4,h5,h6{
   margin: 0;
   font-family: 'Outfit', 'DmSans';
+  font-weight: normal;
 }
 
 .bg-header {
@@ -893,7 +894,9 @@ button {
   border-bottom: 1px solid rgba(156, 154, 154, 0.2);
   padding: 0 0 25px 0;
 }
-
+.thumb{
+  
+}
 /* .thumb p {
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -902,6 +905,10 @@ button {
 } */
 .thumb-content{
   font-size: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .day {
