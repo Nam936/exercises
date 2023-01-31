@@ -323,24 +323,27 @@ button {
   width: 100%;
   height: 100%;
 }
-
+.wrap-main{
+  padding: 90px 30px 120px 30px;
+}
 .header-main {
   color: #2D3958;
   text-align: center;
-  padding: 32px;
 }
 
 .header-main h1 {
-  font-size: 64px;
+  font-size: 2.5vw;
   font-weight: 500;
   color: #2D3958;
+  line-height: 72px;
+  font-style: medium;
+  margin-top: 30px;
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 0 30px 0 30px;
   justify-content: center;
 }
 
@@ -349,11 +352,22 @@ button {
   flex: 25%;
   max-width: 50%;
   padding: 0 4px;
+  cursor: pointer;
+  overflow: hidden;
 }
-
+.column :hover{
+  display: block;
+}
 .column img {
   vertical-align: middle;
   width: 100%;
+  margin-top: 30px;
+  object-fit: cover;
+  transform: scale(1);
+  transition: all 0.3s ease-in-out;
+}
+.column img:hover{
+  transform: scale(1.06);
 }
 
 .column img:nth-child(2) {
@@ -364,7 +378,7 @@ button {
 
 .btn-main {
   text-align: center;
-  padding: 70px;
+  margin-top: 70px;
 }
 
 .btn-main a {
@@ -380,12 +394,24 @@ button {
   .header-main {
     font-size: 2em;
   }
+  .column img{
+    margin-top: 0px;
+  }
+  .header-main h1{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 500;
+    font-style: medium;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .column img{
+    margin-top: 0px;
   }
 }
 
@@ -401,7 +427,7 @@ button {
   height: 100%;
 }
 
-.section-subtit {
+ .section-subtit {
   max-width: 870px;
   text-align: center;
   margin: auto;
@@ -409,10 +435,11 @@ button {
 
 
 
-.txt-subtitle{
-  font-size: 48px;
-  font-weight: 500;
+.sub-title{
+  font-size: 2.5vw;
   line-height: 56px;
+  letter-spacing: -2px;
+  color: #2D3958;
 }
 
 .section-subtit p{
@@ -420,7 +447,7 @@ button {
   margin-top: 30px;
 }
 
-/* Remove extra left and right margins, due to padding */
+
 .section-card {
   display: flex;
   gap: 30px;
@@ -428,18 +455,23 @@ button {
   justify-content: center;
 }
 
-/* Clear floats after the columns */
+
 
 .card-item {
   border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid #e7e5ea;
+
   padding: 35px 35px 45px 35px;
   text-align: center;
   background-color: #fff;
   height: 350px;
   width: 370px;
+  transition: 0.3s;
+  transition-duration: 0.4s;
 }
-
+.card-item:hover{
+  box-shadow:0 20px 50px rgba(79,119,255,0.2)
+}
 .card {
   height: 350px;
   width: 370px;
@@ -487,13 +519,25 @@ button {
   font-size: 18px;
   color: #7B88A8;
   margin-top: 20px;
-}
+} 
+
+
+
+
 
 /* Responsive columns */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .section-card {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     transition: 1s;
+    margin-top: 50px;
+  }
+  .section-inner{
+  margin: 0px auto;
+  padding: 30px 30px;
+  width: 100%;
+  height: 100%;
   }
 
   .cards-cus {
@@ -502,6 +546,24 @@ button {
 
   .cus-title {
     font-size: 2em;
+  }
+
+  .section-subtit p{
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: 10px;
+  }
+  .sub-title{
+    text-align: center;
+    font-size: 4.5vw;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+  .section-card{
+
+  }
+  .wrap-main{
+    padding: 80px 30px 80px;
   }
 }
 
@@ -582,7 +644,7 @@ button {
   }
 
   .card-image-container img {
-    padding: 15px 30px 15px 30px;
+    padding: 15px 0;
   }
 
   .title-recent {
@@ -682,7 +744,7 @@ button {
   max-width: 1170px;
   height: auto;
   margin: 0px auto;
-  padding: 15px 15px;
+  padding: 30px 30px;
   width: 100%;
 }
 
@@ -760,7 +822,12 @@ button {
     grid-template-columns: 1fr;
     justify-items: center;
   }
-
+  .row{
+    margin-top: 30px;
+  }
+  .btn-main{
+    margin-top: 50px;
+  }
   .item-footer {
     margin-top: 20px;
     text-align: center;
@@ -789,14 +856,6 @@ button {
   width: 100%;
   position: relative;
 
-}
-
-.title-main h3 {
-  text-align: center;
-  font-size: 48px;
-  color: #2D3958;
-  max-width: 970px;
-  margin: auto;
 }
 
 .cards-cus {
@@ -947,11 +1006,16 @@ button {
   .card-main {
     display: flex;
     flex-wrap: wrap;
+    width: auto;
+  
+  }
+  .card-container-thumb{
+    width: 370px;
   }
 
-  .cards-cus {
-    padding: 20px;
-  }
+  /* .cards-cus {
+    padding: 20px 0 20px 20px;
+  } */
   .card-content-cus{
     padding: 0 20px 25px 30px;
   }
