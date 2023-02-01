@@ -1,11 +1,14 @@
-var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+
     loop: true,
-    loopFillGroupWithBlank: true,
+
+    // If we need pagination
     pagination: {
-        el: ".swiper-pagination",
-        clickable: true
+        el: '.swiper-pagination',
     },
+    slidesPerView: 4,
+    spaceBetween: 30,
+    // slidesPerView: 3.5,
+    // centeredSlides: true,
 });
