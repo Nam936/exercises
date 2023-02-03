@@ -218,18 +218,6 @@ button {
   letter-spacing: -2px;
 }
 
-/* .tit-link{
-  padding: 15px;
-  }
-  .tit-link a{
-  font-size: 15px;
-  font-weight: 500;
-  text-decoration: none;
-  color: #7B88A8;
-  }
-  .tit-link a:active{
-  color: #2D3958;
-  } */
 .tit-link ul {
   text-align: center;
   padding: 10px 16px;
@@ -551,6 +539,13 @@ button {
   height: 100%;
   overflow: hidden;
 }
+.section-inner-slide {
+  max-width: 1170px;
+  margin: 0px auto;
+  padding: 120px 0;
+  width: 100%;
+  height: 100%;
+}
 
 .background-slide {
   background-color: #F8FAFC;
@@ -679,12 +674,6 @@ button {
     margin-top: 50px;
   }
 
-  /* .section-inner {
-    margin: 0px auto;
-    padding: 30px 30px;
-    width: 100%;
-    height: 100%;
-  } */
   .cards-cus {
     flex-wrap: wrap;
   }
