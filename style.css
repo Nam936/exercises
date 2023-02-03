@@ -172,6 +172,7 @@ a:active {
   position: absolute;
   left: 23px;
   top: 2px;
+  cursor: pointer;
 }
 
 .cart-out::before {
@@ -184,6 +185,7 @@ a:active {
   left: 22px;
   top: 1px;
   position: absolute;
+  cursor: pointer;
 }
 
 .cart {
@@ -216,6 +218,7 @@ button {
   font-size: 48px;
   line-height: 56px;
   letter-spacing: -2px;
+  color: #2D3958;
 }
 
 .tit-link ul {
@@ -341,6 +344,7 @@ button {
   font-size: 48px;
   line-height: 56px;
   letter-spacing: -2px;
+  color: #2D3958;
 }
 .sectrginion_title{
   margin: 0px;
@@ -633,6 +637,7 @@ button {
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -1px;
+  color: #2D3958;
 }
 
 .txt-avatar-content {
@@ -650,8 +655,10 @@ button {
 }
 
 .txt-title {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
+  letter-spacing: 0.4px;
+  color: #2D3958;
 }
 
 .txt-content {
@@ -1054,6 +1061,7 @@ button {
   margin: 20px 0 0 0;
   font-size: 22px;
   letter-spacing: -1px;
+  color: #2D3958;
 }
 
 .card-content-cus {
@@ -1124,6 +1132,7 @@ button {
   overflow: hidden;
   line-height: 32px;
   letter-spacing: -1px;
+  color: #2D3958;
 }
 
 .day {
