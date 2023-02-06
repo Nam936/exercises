@@ -6,7 +6,14 @@ const swiper = new Swiper('.swiper', {
     grabCursor: true,
     slidesPerView: 3,
     spaceBetween: 30,
-    freeMode: false,
+    // breakpoints:{
+    //     600:{
+    //         slidesPerView: 1
+    //     },
+    //     800:{
+    //         slidesPerView:1
+    //     },
+    // }
 });
 
 
@@ -18,5 +25,13 @@ var swiper_2 = new Swiper('.swiper-initialize', {
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-    }
-});
+    },
+    // breakpoints:{
+    //     600: {
+    //         slidesPerView: 1
+    //     },
+    //     800: {
+    //         slidesPerView:1
+    //     }
+    // }
+});k
