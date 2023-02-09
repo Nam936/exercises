@@ -34,4 +34,6 @@ var swiper_2 = new Swiper('.swiper-initialize', {
     //         slidesPerView:1
     //     }
     // }
-});k
+});
+
+
